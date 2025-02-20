@@ -1,0 +1,66 @@
+/* src/components/About.css */
+
+.about-section {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .about-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about-section .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .about-section .col-12 {
+    flex: 1 1 100%;
+  }
+  
+  .about-section .col-lg-6 {
+    flex: 1 1 50%;
+  }
+  
+  .about-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .about-section .about-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .about-section .about-text {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left; /* Left-align text for larger screens */
+  }
+  
+  @media (max-width: 768px) {
+    .about-section .col-lg-6 {
+      flex: 1 1 100%;
+    }
+  
+    .about-section img {
+      margin-bottom: 20px;
+    }
+
+    .about-section .about-title {
+        text-align: center; /* Center-align text for smaller screens */
+    }  
+    .about-section .about-text {
+      text-align: center; /* Center-align text for smaller screens */
+    }
+  }
+  

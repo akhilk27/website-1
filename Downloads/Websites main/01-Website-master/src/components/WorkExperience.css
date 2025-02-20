@@ -1,0 +1,57 @@
+.work-experience-section {
+    margin-bottom: 20px;
+    padding: 40px 90px 27px 0;
+    background-color: #f4f4f4;
+  }
+  
+  .work-experience-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center; /* Center align on all screen sizes */
+  }
+  
+  .work-experience-item {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  .work-experience-date {
+    flex: 0 0 25%; /* Column 1 takes 25% of the space */
+    text-align: right; /* Right align on all screen sizes */
+    padding-top: 5px;
+  }
+  
+  .work-experience-details {
+    flex: 1; /* Column 2 takes remaining space */
+    padding-left: 30px;
+    text-align: left; /* Left align on all screen sizes */
+  }
+  
+  .work-experience-description {
+    margin-bottom: 10px;
+  }
+  
+  .work-experience-points {
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+  
+  .work-experience-points li {
+    list-style-type: disc; /* Use bullet points for list items */
+  }
+  
+  .work-experience-tools {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tool-badge {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 2px 5px;
+    background-color: #6b46c1; /* Purple color */
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  

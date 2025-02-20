@@ -1,0 +1,135 @@
+/* General styling for the Projects section */
+.projects-section {
+    padding: 70px 40px 140px;
+    background-color: #fff;
+  }
+  
+  .projects-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  /* Carousel arrows styling */
+  .project-carousel .slick-prev,
+  .project-carousel .slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .project-carousel .slick-prev {
+    left: 10px;
+  }
+  
+  .project-carousel .slick-next {
+    right: 10px;
+  }
+  
+  .arrow-left,
+  .arrow-right {
+    color: #333;
+    font-size: 30px;
+  }
+  
+  /* Project item styling */
+  .project-title{
+    padding-bottom: 20px;
+  }
+  .project-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+    padding: 20px;
+    /* background-color: #EAE6FF; Add background color to make it more prominent */
+    background-color: #f4f4f4;
+    border-radius: 8px;
+  }
+  
+  /* Styling for the project image container */
+  .project-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Styling for the project image */
+  .project-image {
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* Styling for the project details */
+  .project-details {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Styling for the project title */
+  .project-details h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  /* Styling for the project description */
+  .project-details p {
+    font-size: 16px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .project-item {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+  /* Styling for the technologies box */
+.technologies-box {
+ /* Purple background color */
+  color: #fff; /* White text color */
+  border-radius: 8px; /* Rounded corners */
+  padding: 15px; /* Padding around the content */
+  margin-top: 10px; /* Spacing from the project details */
+}
+
+/* Styling for the technologies title */
+.technologies-box h6 {
+  margin-bottom: 10px;
+  color: black;
+}
+
+/* Styling for the list of technologies */
+.technologies-box ul {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+}
+
+.technology-item {
+  display: inline-block;
+  background-color: #6b46c1;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+
+/* Styling for individual technology items */
+.technologies-box li {
+  margin-bottom: 5px; /* Spacing between technology items */
+}
+
+  

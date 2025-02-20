@@ -1,0 +1,53 @@
+.project-carousel .slick-prev,
+.project-carousel .slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.project-carousel .slick-prev {
+  left: 10px;
+}
+
+.project-carousel .slick-next {
+  right: 10px;
+}
+
+.arrow-left,
+.arrow-right {
+  color: #333;
+  font-size: 30px;
+}
+
+.project-item {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5; /* Add background color to make it more prominent */
+  border-radius: 8px;
+}
+
+.project-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projects-section {
+  padding: 40px;
+  background-color: #e0e0e0; /* Background color for the projects section */
+}
+
+.projects-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
